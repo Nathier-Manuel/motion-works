@@ -1,4 +1,57 @@
-/* Headings */
+/* Text: font-family: 'Open Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-/* Text */
+/* Heading: font-family: 'Lato', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo {
+    cursor: pointer;
+    height: 110px;
+    width: 110px;
+    margin: 0 25px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 18px;
+}
+
+nav li a {
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+nav li a:hover {
+    color: deepskyblue;
+}
+
+.hero {
+    height: calc(100vh - 100px);
+    width: 100vw;
+    background-image: url('/images/pexels-pixabay-163194.jpg');
+    background-image: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
