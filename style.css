@@ -14,14 +14,22 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
+    height: 100px;
 }
 
 .logo {
     cursor: pointer;
-    height: 110px;
-    width: 110px;
-    margin: 0 25px;
+    height: 100px;
+    width: 105px;
+    margin: 0 30px;
 }
+
+/* h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin: 10px 20px;
+    padding: 10px 20px;
+} */
 
 nav ul {
     list-style: none;
@@ -29,6 +37,8 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    margin: 5px 5px;
+    padding: 7px 7px;
     padding: 0 18px;
 }
 
@@ -44,12 +54,11 @@ nav li a {
 }
 
 nav li a:hover {
-    color: deepskyblue;
+    color: #714692;
 }
 
 .hero {
     height: calc(100vh - 100px);
-    width: 100vw;
     background-image: url('/images/pexels-pixabay-163194.jpg');
     background-image: cover;
     background-size: 100% auto;
